@@ -1,0 +1,55 @@
+# Build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+.vscode/
+
+# Rider IDE files
+.idea/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet packages
+*.nupkg
+packages/
+# NuGet v3 cache
+*.snupkg
+.nuget/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Publish output
+publish/
+wwwroot/
+
+# Environment files
+.env
+appsettings.Development.json
+appsettings.Local.json
+
+# Secrets
+secrets.json
+
+# Entity Framework
+Migrations/
+
+# Others
+*.db
+*.sqlite
+*.bak
